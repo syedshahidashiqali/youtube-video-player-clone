@@ -11,6 +11,13 @@ document.addEventListener("keydown", (e) => {
     case "k":
       togglePlay();
       break;
+    case "f":
+      toggleFullScreenMode();
+    case "t":
+      toggleTheaterMode();
+    case "i":
+      toggleMiniPlayerMode();
+      break;
   }
 });
 
